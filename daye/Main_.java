@@ -32,13 +32,11 @@ class MainDemo extends JFrame
 		
 		jp1 = new JPanel();
 		jp1.setLayout(new GridLayout(1,2));
-<<<<<<< HEAD
-		jp1.add(new JLabel("Á¦ ¸ñ"));
+		jp1.add(new JLabel("Á¦¸ñ"));
 		jp1.add(new JButton("·Î±×¾Æ¿ô"));
-=======
-		jp1.add(new JLabel("ì œëª©"));
-		jp1.add(new JButton("ë¡œê·¸ì•„ì›ƒ"));
->>>>>>> 726355886f3f26173b3c2bfc93a2d5e021c1ec36
+		/*Button button1 = new Button();
+		button1.setText("·Î±×¾Æ¿ô");
+		button1.setSize(100, 100);*/
 		
 		jp2 = new JPanel();
 		jmb.add(menu1);	jmb.add(menu2);	jmb.add(menu3);	
@@ -54,7 +52,7 @@ class MainDemo extends JFrame
 		jp2.add(new JLabel("DELETE"));*/
 		
 		jp3 = new JPanel();
-		jp3.add(new JTextArea(10,100));
+		jp3.add(new JTextArea(30,100));
 		
 		ct.add(jp1, BorderLayout.NORTH);
 		ct.add(jp2, BorderLayout.CENTER);
@@ -67,12 +65,11 @@ class MainDemo extends JFrame
 	}
 }
 
-public class Main {
+public class Main_ {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		new MainDemo();
-<<<<<<< HEAD
 		/*Scanner input = new Scanner(System.in);
 
 	    String username;
@@ -89,13 +86,8 @@ public class Main {
 
 	    if(check.auth()) 
 	        System.out.println("·Î±×ÀÎ¿¡ ¼º°øÇß½À´Ï´Ù.");
-                  System.out.println("Á¤¸» ÃàÇÏµå¸³´Ï´Ù..");
 	    else
-	    	System.out.println("·Î±×ÀÎ¿¡ ½ÇÆÐÇÏ¿´½À´Ï´Ù.");
-                   System.out.println("Á¤¸» ¾ÈÅ¸±õ½À´Ï´Ù.");*/
-=======
-	
->>>>>>> 726355886f3f26173b3c2bfc93a2d5e021c1ec36
+	    	System.out.println("·Î±×ÀÎ¿¡ ½ÇÆÐÇÏ¿´½À´Ï´Ù.");*/
 	}
 
 }
