@@ -32,8 +32,8 @@ class MainDemo extends JFrame
 		
 		jp1 = new JPanel();
 		jp1.setLayout(new GridLayout(1,2));
-		jp1.add(new JLabel("Á¦¸ñ"));
-		jp1.add(new JButton("·Î±×¾Æ¿ô"));
+		jp1.add(new JLabel("ì œëª©"));
+		jp1.add(new JButton("ë¡œê·¸ì•„ì›ƒ"));
 		
 		jp2 = new JPanel();
 		jmb.add(menu1);	jmb.add(menu2);	jmb.add(menu3);	
@@ -67,24 +67,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		new MainDemo();
-		/*Scanner input = new Scanner(System.in);
-
-	    String username;
-	    String password;
-
-	    System.out.println("***Log in***");
-	    System.out.println("User ID: ");
-	    username = input.nextLine();
-
-	    System.out.println("Password: ");
-	    password = input.nextLine();
-
-	    users check = new users(username, password);
-
-	    if(check.auth()) 
-	        System.out.println("·Î±×ÀÎ¿¡ ¼º°øÇß½À´Ï´Ù.");
-	    else
-	    	System.out.println("·Î±×ÀÎ¿¡ ½ÇÆÐÇÏ¿´½À´Ï´Ù.");*/
+	
 	}
 
 }
