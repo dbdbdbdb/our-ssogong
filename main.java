@@ -32,7 +32,7 @@ class MainDemo extends JFrame
 		
 		jp1 = new JPanel();
 		jp1.setLayout(new GridLayout(1,2));
-		jp1.add(new JLabel("제목"));
+		jp1.add(new JLabel("제 목"));
 		jp1.add(new JButton("로그아웃"));
 		
 		jp2 = new JPanel();
@@ -83,8 +83,10 @@ public class Main {
 
 	    if(check.auth()) 
 	        System.out.println("로그인에 성공했습니다.");
+                  System.out.println("정말 축하드립니다..");
 	    else
-	    	System.out.println("로그인에 실패하였습니다.");*/
+	    	System.out.println("로그인에 실패하였습니다.");
+                   System.out.println("정말 안타깝습니다.");*/
 	}
 
 }
